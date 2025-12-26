@@ -1,4 +1,4 @@
-#include "terminalgridmanager.h"
+#include "tgrid.h"
 #include <algorithm>
 #include <iostream>
 #include <sstream>
@@ -313,3 +313,4 @@ void showcursor()
     std::lock_guard<std::mutex> lock(grid_mutex);
     cursor_visible = true;
 }
+
